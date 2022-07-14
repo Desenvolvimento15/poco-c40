@@ -29,6 +29,19 @@ $(function(){
      slidesToShow:1,
      slidesToScroll: 1,
      autoplaySpeed: 5000,
-    
+     responsive: [
+      {
+        breakpoint: 999,
+        settings: {
+          dots: true,
+          autoplay:true,
+          fade: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplaySpeed: 5000,
+        }
+      },
+     ]
   });
   });
