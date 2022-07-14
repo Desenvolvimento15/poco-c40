@@ -22,23 +22,13 @@
 
 $(function(){
     $(".galeria").slick({
-    dots: true,
-     arrows: false,
+     dots: true,
+     infinite: true,
      autoplay:true,
+     fade: true,
      slidesToShow:1,
      slidesToScroll: 1,
      autoplaySpeed: 5000,
-     responsive: [
-      {
-        breakpoint: 999,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-  
-     ]
+    
   });
   });
