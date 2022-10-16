@@ -1,0 +1,39 @@
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:1024px) {
+    main{
+      display: none;
+    }
+}
+
+
+@media screen and (min-width:760px) and (max-width:1023px) {
+  main{
+    display: none;
+  }  
+}
+
+@media screen  and (max-width:768px){
+
+.base_01{}
+.base_02{}
+.base_03{}
+.base_04{}
+.base_05{}
+.base_06{}
+.base_07{}
+.base_08{}
+.base_09{}
+.base_10{}
+.base_11{}
+.base_12{}
+.base_13{}
+.base_14{}
+
+
+
+
+}
