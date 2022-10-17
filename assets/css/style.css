@@ -1,197 +1,9 @@
-*{  box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+*{box-sizing: border-box; margin: 0; padding: 0;}
 
 :root {
-
-  font-size: 100%;
-
-  --skeleton-color: #eee;
-  --primary-base: #ff6700;
-  --primary-variant: #fff;
-  --secondary-base: #212121;
-  --secondary-variant: #b0b0b0;
-  --background-base: #f5f5f5;
-  --background-base-variant: #f9f9fa;
-  --background-base-variant-2: #f9f9fa;
-  --background-base-variant-3: #f9f9fa;
-  --background-base-variant-4: #f5f5f5;
-  --background-base-variant-5: #f9f9fa;
-  --background-base-variant-6: #f7f7f7;
-  --background-light: #fff;
-  --background-light-a0: #fff0;
-  --background-light-variant: #fff;
-  --background-light-variant-2: #f6f6f7;
-  --background-dark: #ddd;
-  --background-black: #191919;
-  --background-card-bg: #fff;
-  --background-card-surface: #fafafa;
-  --background-light-sku: #fff;
-  --background-light-sku-dark: #fff;
-  --background-light-sku-gray: #f2f2f2;
-  --background-sku-img-normal: #0000;
-  --background-sku-img-highlight: #0000;
-  --background-quantity-active: #e0e0e0;
-  --background-tag-badge: #fe471c;
-  --background-contrast: #f5f5f5;
-  --background-contrast-light: #fff;
-  --background-contrast-variant: #424242;
-  --background-loading-button: #ccc;
-  --background-dialog-content: #fff;
-  --background-dialog-content-2: #fafafa;
-  --background-dialog-button: #ccc;
-  --background-dialog-button-disabled: #ddd;
-  --background-dialog-button-hover: #757575;
-  --background-primary: #ff6700;
-  --background-primary-a10: #ff67001a;
-  --background-primary-a10-variant: #ff6700;
-  --background-primary-a20: #ff670033;
-  --background-primary-a20-variant: #ff6700;
-  --background-primary-variant: #ff6700;
-  --background-primary-variant-2: #ff6700;
-  --background-primary-variant-3: #ff6700;
-  --background-primary-variant-4: #ff6700;
-  --background-primary-hover: #f95b06;
-  --background-secondary: #212121;
-  --background-secondary-a80: #212121cc;
-  --background-secondary-variant: #424242;
-  --background-secondary-variant-2: #212121;
-  --background-secondary-variant-3: #b0b0b0;
-  --background-secondary-variant-4: #424242;
-  --background-disable: #ddd;
-  --background-loader: #ff6700;
-  --background-toast: #222c;
-  --background-toast-1: #222c;
-  --background-mask: #f8f8f8;
-  --background-mask-1: #f8f8f8;
-  --background-mask-2: #f8f8f8;
-  --background-mask-a65: #f8f8f8a6;
-  --background-step: #b0b0b0;
-  --background-step-done: #6eb655;
-  --background-spot: #ff6700;
-  --background-spot-variant: #fff;
-  --background-float: linear-gradient(135deg, #ffa86d, #ff6700);
-  --background-gradient: linear-gradient(135deg, #789ef5, #466cd2);
-  --background-gradient-01: linear-gradient(135deg, #009688, #466cd2);
-  --background-float-variant: linear-gradient(135deg, #ffa86d1a, #ff67001a);
-  --background-badge: linear-gradient(140deg, #ff9b7e, #ff5169);
-  --background-badge-variant: #ffc94d;
-  --background-quiz-success: linear-gradient(141deg, #ff9b7e0d, #ff51690d);
-  --background-quiz-failure: linear-gradient(141deg, #44a0240d, #6eb6550d);
-  --background-scrollbar-track: #eee;
-  --background-scrollbar-thumb: #ff670080;
-  --background-product: #f8f8f8;
-  --brand-grey-40: #d0d0d0;
-  --brand-grey-20: #e7e7e7;
-  --brand-grey-10: #f3f3f3;
-  --shadow-black-a2: #00000005;
-  --shadow-black-a5: #0000000d;
-  --shadow-black-a7: #00000012;
-  --shadow-black-a8: #00000014;
-  --shadow-black-a10: #0000001a;
-  --shadow-black-a15: #00000026;
-  --shadow-black-a20: #0003;
-  --shadow-black-a30: #0000004d;
-  --shadow-black-a40: #0006;
-  --shadow-black-a50: #00000080;
-  --shadow-black-a60: #0009;
-  --shadow-gray-a20: #78787833;
-  --shadow-gray-dark-a20: #16171833;
-  --shadow-white-a10: #ffffe11a;
-  --shadow-white-a20: #ffffe133;
-  --shadow-white-a30: #ffffe14d;
-  --shadow-white-a50: #ffffe180;
-  --shadow-white-a80: #ffffe1cc;
-  --shadow-white-a90: #ffffe1e6;
-  --shadow-contrast-a20: #ffffe133;
-  --shadow-contrast-a30: #ffffe14d;
-  --shadow-contrast-a50: #ffffe180;
-  --shadow-contrast-a90: #ffffe1e6;
-  --shadow-primary-a10: #ff67001a;
-  --shadow-primary-a20: #ff670033;
-  --shadow-primary-a30: #ff67004d;
-  --shadow-primary-a40: #ff670066;
-  --shadow-primary-a50: #ff670080;
-  --border-base: #ddd;
-  --border-base-variant: #b0b0b0;
-  --border-base-variant-2: #ddd;
-  --border-base-variant-3: #ddd;
-  --border-base-variant-4: #898989;
-  --border-light: #eee;
-  --border-light-variant: #eee;
-  --border-light-variant-2: #eee;
-  --border-light-variant-3: #e0e0e0;
-  --border-light-variant-4: #e0e0e0;
-  --border-light-variant-5: #e0e0e0;
-  --border-light-variant-6: #f8f8f8;
-  --border-dark: #424242;
-  --border-dark-variant: #191919;
-  --border-input: #b0b0b0;
-  --border-gray: #dbdbdb;
-  --border-loading-button: #ccc;
-  --border-disabled-button: #ddd;
-  --border-primary: #ff6700;
-  --border-primary-variant: #ff6700;
-  --border-primary-variant-2: #ff6700;
-  --text-base: #191919;
-  --text-reverse: #fff;
-  --text-primary: #ff6900;
-  --text-secondary: #898989;
-  --title-base: #424242;
-  --title-base-variant: #424242;
-  --title-base-variant-2: #424242;
-  --title-base-variant-3: #424242;
-  --title-base-variant-4: #424242;
-  --title-base-variant-5: #424242;
-  --title-light: #b0b0b0;
-  --title-light-variant: #c9c9c9;
-  --title-light-variant-2: #999;
-  --title-light-variant-3: #c6c6c6;
-  --title-light-variant-4: #b4b4b4;
-  --title-light-variant-5: #ddd;
-  --title-light-variant-6: #b0b0b0;
-  --title-light-variant-7: #c9c9c9;
-  --title-light-variant-8: #c9c9c9;
-  --title-light-variant-9: #ddd;
-  --title-dark: #000;
-  --title-dark-variant: #222;
-  --title-dark-variant-2: #b4b4b4;
-  --title-dark-variant-3: #2e2323;
-  --title-dark-variant-4: #2e2323;
-  --title-dark-variant-5: #2e2323;
-  --title-dark-variant-6: #000;
-  --title-primary: #ff6700;
-  --title-primary-variant: #fff;
-  --title-primary-variant-2: #fff;
-  --title-primary-variant-3: #ff6700;
-  --title-primary-variant-4: #fff;
-  --title-primary-variant-5: #fff;
-  --title-primary-variant-6: #fff;
-  --title-secondary: #212121;
-  --title-modal: #191919;
-  --content-base: #666;
-  --content-base-variant: #666;
-  --content-light: #757575;
-  --content-light-variant: #757575;
-  --content-light-variant-2: #757575;
-  --content-light-variant-3: #999;
-  --content-light-variant-4: #999;
-  --content-light-variant-5: #ccc;
-  --content-dark: #424242;
-  --content-dark-variant: #333;
-  --content-dark-variant-2: #424242;
-  --content-dark-variant-3: #424242;
-  --content-dark-variant-4: #333333;
-  --content-dark-variant-5: #333;
-  --content-contrast: #999;
-  --content-contrast-variant: #616161;
-  --content-active: #ff6900;
-  --content-primary: #ff6700;
-  --content-primary-variant: #ff6700;
-  --content-primary-variant-2: #ff6700;
-  --content-primary-variant-3: #ff6700;
-
+--background-notas: #ecedf1;
+--title: #000;
+--paragraph:#000;
 }
 
 @font-face {font-family: CamphorProForXiaoMi-Regular; src: url(../css/fonts/CamphorProForXiaoMi-Regular.woff) format("woff")}
@@ -207,23 +19,18 @@
 .f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
 .f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
  
-.p_Xiaomi{font-size: 1em; color: var(--content-dark-variant-2);}
-.Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-black);}
+.p_Xiaomi{font-size: 1em; color: var(--paragraph);}
+.Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--title);}
 
-@media screen and (min-width:1024px) {
-    main{display: none;}
-}
-
-@media screen and (min-width:760px) and (max-width:1023px) {
-  main{display: none;}  
-}
+@media screen and (min-width:1024px) {main{display: none;}}
+@media screen and (min-width:760px) and (max-width:1023px) {main{display: none;}}
 
 @media screen  and (max-width:768px){
 
 .root_xiaomi_poco_c40{overflow: hidden; width: 100%;}
 
-.p_Xiaomi{font-size: 1em; color: var(--content-dark-variant-2);}
-.Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--background-black); text-align: center;}
+.p_Xiaomi{font-size: 1em; color: var(--paragraph);}
+.Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
 
 .grid-xiaomi{
 display: grid;
@@ -231,15 +38,6 @@ grid-template-columns: 1fr 1fr;
 align-items: center;
 text-align: center;
 margin: auto;
-}
-
-.base_01{
-height: 53rem;
-background-image: url(../media/Overview_M1080_01.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-display: flex;
-flex-direction: column;
 }
 
 .grid-text{
@@ -254,11 +52,22 @@ width: 25rem;
 text-align: center;
 }
 
+.base_01{
+height: 53rem;
+background-image: url(../media/Overview_M1080_01.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
 .base_02{}
 
 .base_03{
 height: 53rem;
 background-image: url(../media/Overview_M1080_14.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -268,6 +77,7 @@ flex-direction: column;
 .base_04{
 height: 53rem;
 background-image: url(../media/Overview_M1080_15.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -276,6 +86,7 @@ flex-direction: column;
 
 .base_05{height: 53rem;
 background-image: url(../media/Overview_M1080_17.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -285,17 +96,27 @@ flex-direction: column;
 .base_06{
 height: 53rem;
 background-image: url(../media/Overview_M1080_18.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
 flex-direction: column;
 }
 
-.base_07{}
+.base_07{
+height: 53rem;
+background-image: url(../media/Overview_M1080_19.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
 
 .base_08{
 height: 53rem;
 background-image: url(../media/Overview_M1080_20.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -305,6 +126,7 @@ flex-direction: column;
 .base_09{
 height: 85rem;
 background-image: url(../media/Overview_M1080_21.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -316,6 +138,7 @@ flex-direction: column;
 .base_11{
 height: 53rem;
 background-image: url(../media/Overview_M1080_23.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -325,6 +148,7 @@ flex-direction: column;
 .base_12{
 height: 53rem;
 background-image: url(../media/Overview_M1080_24.png);
+background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 display: flex;
@@ -332,12 +156,15 @@ flex-direction: column;
 }
 
 .base_13{
-
+margin: 1rem;
+padding: 1rem;
 }
 
 .footer_Xiaomi{
-background-color: var(--secondary-variant);
+background-color: var(--background-notas);
 padding: 1rem;
 }
+
+
 
 }
