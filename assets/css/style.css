@@ -211,16 +211,11 @@
 .Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-black);}
 
 @media screen and (min-width:1024px) {
-    main{
-      display: none;
-    }
+    main{display: none;}
 }
 
-
 @media screen and (min-width:760px) and (max-width:1023px) {
-  main{
-    display: none;
-  }  
+  main{display: none;}  
 }
 
 @media screen  and (max-width:768px){
@@ -228,49 +223,121 @@
 .root_xiaomi_poco_c40{overflow: hidden; width: 100%;}
 
 .p_Xiaomi{font-size: 1em; color: var(--content-dark-variant-2);}
-.Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--background-black); text-align: center;}
+.Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--background-black); text-align: center;}
 
 .grid-xiaomi{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  }
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+text-align: center;
+margin: auto;
+}
 
 .base_01{
-  height: 53rem;
-  background-image: url(../media/Overview_M1080_01.png);
-  background-repeat: no-repeat;
-  background-size:cover;
-  display: flex;
-  flex-direction: column;
+height: 53rem;
+background-image: url(../media/Overview_M1080_01.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
 }
 
-
+.grid-text{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+width: 25rem;
+text-align: center;
+}
 
 .base_02{}
-.base_03{}
+
+.base_03{
+height: 53rem;
+background-image: url(../media/Overview_M1080_14.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
 .base_04{
-  background-color: #fad62b;
+height: 53rem;
+background-image: url(../media/Overview_M1080_15.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
 }
-.base_05{}
-.base_06{}
-.base_07{}
-.base_08{}
-.base_09{}
-.base_10{}
-.base_11{}
-.base_12{}
-.base_13{
+
+.base_05{height: 53rem;
+background-image: url(../media/Overview_M1080_17.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
   
+.base_06{
+height: 53rem;
+background-image: url(../media/Overview_M1080_18.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
 }
+
+.base_07{}
+
+.base_08{
+height: 53rem;
+background-image: url(../media/Overview_M1080_20.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.base_09{
+height: 85rem;
+background-image: url(../media/Overview_M1080_21.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.base_10{}
+
+.base_11{
+height: 53rem;
+background-image: url(../media/Overview_M1080_23.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.base_12{
+height: 53rem;
+background-image: url(../media/Overview_M1080_24.png);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
+
+.base_13{
+
+}
+
 .footer_Xiaomi{
-  background-color: var(--secondary-variant);
-  padding: 1rem;
+background-color: var(--secondary-variant);
+padding: 1rem;
 }
-
-
-
 
 }
