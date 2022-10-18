@@ -41,16 +41,22 @@
 .title_xiaomi-c40-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
 .title_xiaomi-c40-07{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
 .title_xiaomi-c40-08{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left; margin-top: 1.5rem;}
+.title_xiaomi-c40-10{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
+.title_xiaomi-c40-11{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+
 
 .sub-title-c40{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
 .sub-title-c40-06{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
 .sub-title-c40-07{font-size: 1.5rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
+.sub-title-c40-11{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
 
 .p_xiaomi-c40-01{font-size: 1rem; color: var(--paragraph);}
 .p_xiaomi-c40-03{font-size: 1rem; color: var(--paragraph); text-align: center;}
 .p_xiaomi-c40-06{font-size: 1rem; color: var(--paragraph); text-align: left;}
 .p_xiaomi-c40-07{font-size: 1rem; color: var(--text-white); text-align: left;}
 .p_xiaomi-c40-08{font-size: 1rem; color: var(--paragraph); text-align: center;}
+.p_xiaomi-c40-10{font-size: 1rem; color: var(--paragraph); text-align: center;}
+.p_xiaomi-c40-11{font-size: 1rem; color: var(--paragraph); text-align: center;}
 
 /*============================================== GRID ========================================================*/
 
@@ -90,6 +96,18 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 align-items: flex-start;
+}
+
+.grid-text-c40-11{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: left; */
+    margin-top: 3rem;
 }
 
 .grid-text-bloco{
