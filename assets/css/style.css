@@ -2,7 +2,10 @@
 
 :root {
 --background-notas: #ecedf1;
+--background-yellon: #f9d230;
+--title-yellon: #f9d230;
 --title: #000;
+--text-white: #fff;
 --paragraph:#000;
 }
 
@@ -29,12 +32,27 @@
 
 .root_xiaomi_poco_c40{overflow: hidden; width: 100%;}
 
-.p_Xiaomi{font-size: 1em; color: var(--paragraph);}
 .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
+.p_Xiaomi{font-size: 1rem; color: var(--paragraph);}
 
-.title-xiaomi-c40{
-    font-size: 3.0rem; font-weight: bold; color: var(--title); text-align: left; 
-}
+.title-xiaomi-c40-01{font-size: 3.0rem; font-weight: bold; color: var(--title); text-align: left;}
+.title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; }
+.title_xiaomi-c40-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
+.title_xiaomi-c40-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+.title_xiaomi-c40-07{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
+.title_xiaomi-c40-08{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left; margin-top: 1.5rem;}
+
+.sub-title-c40{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
+.sub-title-c40-06{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
+.sub-title-c40-07{font-size: 1.5rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
+
+.p_xiaomi-c40-01{font-size: 1rem; color: var(--paragraph);}
+.p_xiaomi-c40-03{font-size: 1rem; color: var(--paragraph); text-align: center;}
+.p_xiaomi-c40-06{font-size: 1rem; color: var(--paragraph); text-align: left;}
+.p_xiaomi-c40-07{font-size: 1rem; color: var(--text-white); text-align: left;}
+.p_xiaomi-c40-08{font-size: 1rem; color: var(--paragraph); text-align: center;}
+
+/*============================================== GRID ========================================================*/
 
 .grid-xiaomi{
 display: grid;
@@ -55,6 +73,25 @@ align-items: center;
 text-align: left;
 }
 
+.grid-text-c40-06 {
+padding: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+margin-top: 3rem;
+}
+
+.grid-text-c40-07{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+align-items: flex-start;
+}
+
 .grid-text-bloco{
 padding: 1rem;
 display: flex;
@@ -63,8 +100,10 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 text-align: left;
-margin-top: 10rem;
+margin-top: 7rem;
 }
+
+/*============================================== LAYOUT ========================================================*/
 
 .base_01{
 height: 42rem;
@@ -76,10 +115,18 @@ display: flex;
 flex-direction: column;
 }
 
-.base_02{}
+.base_02{
+height: 47rem;
+background-image: url(../media/Overview_M1080_02.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+flex-direction: column;
+}
 
 .base_03{
-height: 26rem;
+height: 24rem;
 background-image: url(../media/Overview_M1080_14.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -174,7 +221,7 @@ margin: 1rem;
 padding: 1rem;
 }
 
-.footer_Xiaomi{
+.footer_xiaomi-c40{
 background-color: var(--background-notas);
 padding: 1rem;
 }
