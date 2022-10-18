@@ -32,8 +32,6 @@
 .p_Xiaomi{font-size: 1em; color: var(--paragraph);}
 .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
 
-
-
 .title-xiaomi-c40{
     font-size: 3.0rem; font-weight: bold; color: var(--title); text-align: left; 
 }
@@ -57,7 +55,6 @@ align-items: center;
 text-align: left;
 }
 
-
 .grid-text-bloco{
 padding: 1rem;
 display: flex;
@@ -69,10 +66,8 @@ text-align: left;
 margin-top: 10rem;
 }
 
-
-
 .base_01{
-height: 53rem;
+height: 42rem;
 background-image: url(../media/Overview_M1080_01.jpg);
 background-position: center;
 background-repeat: no-repeat;
