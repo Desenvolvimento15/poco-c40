@@ -32,6 +32,12 @@
 .p_Xiaomi{font-size: 1em; color: var(--paragraph);}
 .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
 
+
+
+.title-xiaomi-c40{
+    font-size: 3.0rem; font-weight: bold; color: var(--title); text-align: left; 
+}
+
 .grid-xiaomi{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -48,9 +54,22 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 align-items: center;
-width: 25rem;
-text-align: center;
+text-align: left;
 }
+
+
+.grid-text-bloco{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+text-align: left;
+margin-top: 10rem;
+}
+
+
 
 .base_01{
 height: 53rem;
@@ -65,7 +84,7 @@ flex-direction: column;
 .base_02{}
 
 .base_03{
-height: 53rem;
+height: 26rem;
 background-image: url(../media/Overview_M1080_14.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -75,7 +94,7 @@ flex-direction: column;
 }
 
 .base_04{
-height: 53rem;
+height: 32rem;
 background-image: url(../media/Overview_M1080_15.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -84,7 +103,7 @@ display: flex;
 flex-direction: column;
 }
 
-.base_05{height: 53rem;
+.base_05{height: 26rem;
 background-image: url(../media/Overview_M1080_17.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -94,7 +113,7 @@ flex-direction: column;
 }
   
 .base_06{
-height: 53rem;
+height: 37rem;
 background-image: url(../media/Overview_M1080_18.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -104,7 +123,7 @@ flex-direction: column;
 }
 
 .base_07{
-height: 53rem;
+height: 39rem;
 background-image: url(../media/Overview_M1080_19.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -114,7 +133,7 @@ flex-direction: column;
 }
 
 .base_08{
-height: 53rem;
+height: 46rem;
 background-image: url(../media/Overview_M1080_20.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -124,7 +143,7 @@ flex-direction: column;
 }
 
 .base_09{
-height: 85rem;
+height: 75rem;
 background-image: url(../media/Overview_M1080_21.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -136,7 +155,7 @@ flex-direction: column;
 .base_10{}
 
 .base_11{
-height: 53rem;
+height: 41rem;
 background-image: url(../media/Overview_M1080_23.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -146,7 +165,7 @@ flex-direction: column;
 }
 
 .base_12{
-height: 53rem;
+height: 44rem;
 background-image: url(../media/Overview_M1080_24.png);
 background-position: center;
 background-repeat: no-repeat;
