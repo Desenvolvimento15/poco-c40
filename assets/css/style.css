@@ -36,7 +36,14 @@
 .p_Xiaomi{font-size: 1rem; color: var(--paragraph);}
 
 .title-xiaomi-c40-01{font-size: 3.0rem; font-weight: bold; color: var(--title); text-align: left;}
-.title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; }
+.title_xiaomi-c40-02-1{font-size: 1.3rem; font-weight: bold; color: var(--title); text-align: left; margin-top: 6.4rem; margin-left: 3rem;}
+.title_xiaomi-c40-02-2{font-size: 1.1rem; font-weight: bold; color: var(--title); text-align: left; margin-top: 6rem; margin-left: 11rem;}
+.title_xiaomi-c40-02-3{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
+
+.title_xiaomi-c40-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 16rem; margin-left: 3rem;}
+
+
+.title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center;}
 .title_xiaomi-c40-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
 .title_xiaomi-c40-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
 .title_xiaomi-c40-07{font-size: 1.7rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
