@@ -1,6 +1,6 @@
 *{box-sizing: border-box; margin: 0; padding: 0;}
 
-:root {
+:root{
 --background-notas: #ecedf1;
 --background-yellon: #f9d230;
 --title-yellon: #f9d230;
@@ -22,9 +22,6 @@
 .f-medium {font-family: CamphorProForXiaoMi-Medium, sans-serif}
 .f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
  
-.p_Xiaomi{font-size: 1em; color: var(--paragraph);}
-.Text_Xiaomi{font-size: 3rem; font-weight: bold; color: var(--title);}
-
 @media screen and (min-width:1024px) {main{display: none;}}
 @media screen and (min-width:760px) and (max-width:1023px) {main{display: none;}}
 
@@ -41,7 +38,6 @@
 .title_xiaomi-c40-02-3{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
 .title_xiaomi-c40-02-4{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
 .title_xiaomi-c40-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 16rem; margin-left: 3rem;}
-
 .title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center;}
 .title_xiaomi-c40-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
 .title_xiaomi-c40-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
@@ -89,6 +85,17 @@ align-items: center;
 text-align: left;
 }
 
+.grid-text-bloco{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
+text-align: left;
+margin-top: 7rem;
+}
+
 .grid-text-c40-05 {
 padding: 1rem;
 display: flex;
@@ -100,7 +107,6 @@ align-items: center;
 text-align: left;
 margin-top: -14rem;
 }
-
 
 .grid-text-c40-06 {
 padding: 1rem;
@@ -159,17 +165,6 @@ flex-wrap: nowrap;
 align-content: center;
 justify-content: center;
 margin-top: 3rem;
-}
-
-.grid-text-bloco{
-padding: 1rem;
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-text-align: left;
-margin-top: 7rem;
 }
 
 /*============================================== LAYOUT ========================================================*/
@@ -265,7 +260,7 @@ display: flex;
 flex-direction: column;
 }
 
-.base_10{}
+/*.base_10{}*/
 
 .base_11{
 height: 41rem;
@@ -292,11 +287,19 @@ margin: 1rem;
 padding: 1rem;
 }
 
+.base_14{
+height: 9rem;
+background-image: url(../media/final.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+
 .footer_xiaomi-c40{
 background-color: var(--background-notas);
 padding: 1rem;
 }
-
-
 
 }
