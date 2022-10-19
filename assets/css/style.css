@@ -36,8 +36,8 @@
 .title_xiaomi-c40-02-1{font-size: 1.3rem; font-weight: bold; color: var(--title); text-align: left; margin-top: 6.4rem; margin-left: 3rem;}
 .title_xiaomi-c40-02-2{font-size: 1.1rem; font-weight: bold; color: var(--title); text-align: left; margin-top: 6rem; margin-left: 11rem;}
 .title_xiaomi-c40-02-3{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
-.title_xiaomi-c40-02-4{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
-.title_xiaomi-c40-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 16rem; margin-left: 3rem;}
+.title_xiaomi-c40-02-4{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: 7rem; margin-left: 11rem;}
+.title_xiaomi-c40-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 5rem; margin-left: 3rem;}
 .title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center;}
 .title_xiaomi-c40-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
 .title_xiaomi-c40-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
@@ -47,6 +47,7 @@
 .title_xiaomi-c40-10{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
 .title_xiaomi-c40-11{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
 .title_xiaomi-c40-12{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
+.text_xiaomi-c40-14{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center; margin-top: 4rem; margin-left: -12rem;}
 
 .sub-title-c40{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
 .sub-title-c40-06{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
@@ -72,6 +73,12 @@ grid-template-columns: 1fr 1fr;
 align-items: center;
 text-align: center;
 margin: auto;
+}
+
+.grid-xiaomi-01{
+display: grid;
+grid-template-columns: 1fr 1fr;
+text-align: center;
 }
 
 .grid-text{
@@ -105,7 +112,7 @@ align-content: center;
 justify-content: center;
 align-items: center;
 text-align: left;
-margin-top: -14rem;
+margin-top: -24rem;
 }
 
 .grid-text-c40-06 {
@@ -217,8 +224,9 @@ background-repeat: no-repeat;
 background-size: cover;
 display: flex;
 flex-direction: column;
-margin-top: 14rem;
+margin-top: 25rem;
 }
+
   
 .base_06{
 height: 37rem;
