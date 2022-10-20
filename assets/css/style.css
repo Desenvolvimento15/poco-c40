@@ -28,6 +28,10 @@
 
 @media screen  and (max-width:768px){
 
+a:link {
+text-decoration: none;
+}
+
 .root_xiaomi_poco_c40{overflow: hidden; width: 100%;}
 
 .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
