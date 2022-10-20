@@ -23,6 +23,7 @@
 .f-thin {font-family: CamphorProForXiaoMi-Thin, sans-serif}
  
 @media screen and (min-width:1024px) {main{display: none;}}
+
 @media screen and (min-width:760px) and (max-width:1023px) {main{display: none;}}
 
 @media screen  and (max-width:768px){
@@ -38,6 +39,7 @@
 .title_xiaomi-c40-02-3{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: -5rem; margin-left: 2rem;}
 .title_xiaomi-c40-02-4{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: 7rem; margin-left: 11rem;}
 .title_xiaomi-c40-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 5rem; margin-left: 3rem;}
+
 .title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center;}
 .title_xiaomi-c40-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
 .title_xiaomi-c40-05{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
@@ -59,7 +61,7 @@
 .p_xiaomi-c40-01{font-size: 1rem; color: var(--paragraph);}
 .p_xiaomi-c40-03{font-size: 1rem; color: var(--paragraph); text-align: center;}
 .p_xiaomi-c40-06{font-size: 1rem; color: var(--paragraph); text-align: left;}
-.p_xiaomi-c40-07{font-size: 1rem; color: var(--text-white); text-align: left;}
+.p_xiaomi-c40-07{font-size: 0.7rem; color: var(--text-white); text-align: left;}
 .p_xiaomi-c40-08{font-size: 1rem; color: var(--paragraph); text-align: center;}
 .p_xiaomi-c40-09{font-size: 1rem; color: var(--paragraph); text-align: left;}
 .p_xiaomi-c40-10{font-size: 1rem; color: var(--paragraph); text-align: left;}
@@ -69,13 +71,13 @@
 /*============================================== GRID ========================================================*/
 
 .grid-content{
-    width: 20rem;
-    height: 3.3rem;
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+width: 16rem;
+height: 3.3rem;
+margin: 0.5rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .grid-xiaomi{
