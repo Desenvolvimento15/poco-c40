@@ -68,6 +68,16 @@
 
 /*============================================== GRID ========================================================*/
 
+.grid-content{
+    width: 20rem;
+    height: 3.3rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .grid-xiaomi{
 display: grid;
 grid-template-columns: 1fr 1fr;
