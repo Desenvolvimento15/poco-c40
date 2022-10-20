@@ -40,7 +40,7 @@
 .title_xiaomi-c40-02-4{font-size: 1rem; font-weight: bold; color: var(--title); margin-top: 7rem; margin-left: 11rem;}
 .title_xiaomi-c40-02-5{font-size: 1.3rem; font-weight: bold; color: #f9d230; text-align: left; margin-top: 5rem; margin-left: 3rem;}
 
-.title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center;}
+.title_xiaomi-c40-03{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: left;}
 .title_xiaomi-c40-04{font-size: 1.7rem; font-weight: bold; color: var(--title); text-align: center; padding: 1rem; margin-top: 3rem;}
 .title_xiaomi-c40-05{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
 .title_xiaomi-c40-06{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
@@ -53,13 +53,14 @@
 .text_xiaomi-c40-14{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center; margin-top: 4rem; margin-left: -12rem;}
 
 .sub-title-c40{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
+.sub-title-c40-03{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: left;}
 .sub-title-c40-06{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
 .sub-title-c40-07{font-size: 1.5rem; font-weight: bold; color: var(--title-yellon); text-align: left;}
 .sub-title-c40-11{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
 .sub-title-c40-12{font-size: 1.2rem; font-weight: bold; color: var(--title); text-align: left;}
 
 .p_xiaomi-c40-01{font-size: 1rem; color: var(--paragraph);}
-.p_xiaomi-c40-03{font-size: 1rem; color: var(--paragraph); text-align: center;}
+.p_xiaomi-c40-03{font-size: 1rem; color: var(--paragraph); text-align: left;}
 .p_xiaomi-c40-06{font-size: 1rem; color: var(--paragraph); text-align: left;}
 .p_xiaomi-c40-07{font-size: 0.7rem; color: var(--text-white); text-align: left;}
 .p_xiaomi-c40-08{font-size: 1rem; color: var(--paragraph); text-align: left;}
@@ -114,6 +115,14 @@ align-content: center;
 justify-content: center;
 text-align: left;
 margin-top: 7rem;
+}
+.grid-text-c40-03{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-content: center;
+justify-content: center;
 }
 
 .grid-text-c40-05 {
