@@ -289,7 +289,7 @@ flex-direction: column;
 }
 
 .base_09{
-height: 83rem;
+height: 75rem;
 background-image: url(../media/Overview_M1080_21.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -338,6 +338,8 @@ flex-direction: column;
 .footer_xiaomi-c40{
 background-color: var(--background-notas);
 padding: 1rem;
+text-align: justify;
+text-justify: inter-word;
 }
 
 
