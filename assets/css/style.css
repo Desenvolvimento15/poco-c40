@@ -33,7 +33,6 @@ text-decoration: none;
 }
 
 .root_xiaomi_poco_c40{overflow: hidden; width: 100%;}
-
 .Text_Xiaomi{font-size: 1.5rem; font-weight: bold; color: var(--title); text-align: center;}
 .p_Xiaomi{font-size: 1rem; color: var(--paragraph);}
 
@@ -261,7 +260,6 @@ flex-direction: column;
 margin-top: 25rem;
 }
 
-  
 .base_06{
 height: 37rem;
 background-image: url(../media/Overview_M1080_18.jpg);
